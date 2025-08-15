@@ -30,12 +30,15 @@ o Store the URI of the selected image in the component's state.
 
 
 4. Local Data Persistence
-· Choose a library: Use AsyncStorage to persist the selected profile picture URI locally.
-· Saving: When a new picture is selected, save its URI to AsyncStorage.
-· Loading: When ProfileScreen mounts, check if a profile picture URI exists in AsyncStorage. If it does, load and display it.
+· Choose a library:
+      -  Use AsyncStorage to persist the selected profile picture URI locally.
+· Saving:
+      -  When a new picture is selected, save its URI to AsyncStorage.
+· Loading:
+      -  When ProfileScreen mounts, check if a profile picture URI exists in AsyncStorage. If it does, load and display it.
 
 
-5. UI & Usability
+6. UI & Usability
 · Ensure the profile picture placeholder is visually appealing (for example circular border).
 · Provide clear feedback to the user during the process (for example "Loading camera...", "Saving image...").
 · Handle cases where the user cancels the camera/image picker operation.
